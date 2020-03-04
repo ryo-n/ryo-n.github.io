@@ -2,3 +2,8 @@ baseURL = "https://ryo-n.github.io/"
 theme = "hello-friend-ng"
 languageCode = "ja-jp"
 title = "ryo_n"
+
+[[menu.main]]
+  identifier = "blog"
+  name       = "Blog"
+  url        = "/posts"
