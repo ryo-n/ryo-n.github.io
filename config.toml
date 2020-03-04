@@ -1,4 +1,4 @@
 baseURL = "https://ryo-n.github.io/"
 theme = "hello-friend-ng"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "ja-jp"
+title = "ryo_n"
