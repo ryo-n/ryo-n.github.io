@@ -24,7 +24,7 @@ description = ""
 title404 = "Nothing's here!"
 
 [params.assets]
-favicon = "favicon.ico"
+#favicon = "favicon.ico"
 customCSS = ["css/custom.css"]
 customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
@@ -46,7 +46,7 @@ showReadingTime = true
 showLastmod = true
 taxonomyCloudShuffle = true
 accentColor = "#ffcd00"
-hideMainMenu = true
+hideMainMenu = false
 
 [params.sidebar]
 enable = true
@@ -68,9 +68,9 @@ tag = "tags"
 page = "/:slug/"
 
 [[menu.main]]
+name="問題解説"
 weight = -10
-identifier = "repository"
-url = "https://github.com/ryo-n/ryo-n.github.io"
+url = "https://www.notion.so/ry0n/2d7eed95099e45a89ba0e25ba22fa65d?v=2cc963f963444f148962fc0ebd8f1e97"
 
 [blackfriday]
 hrefTargetBlank = true
