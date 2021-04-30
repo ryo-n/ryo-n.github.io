@@ -4,7 +4,7 @@ title = "ryo_n"
 copyright = ""
 logo=""
 
-theme = "minimo"
+theme = "etch"
 
 Paginate = 5
 preserveTaxonomyNames = true
