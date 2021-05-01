@@ -61,6 +61,9 @@ footer = ["social_menu"]
 github = "ryo-n"
 twitter = "ryo_n_code"
 
+[params.entry]
+meta = ["date"]
+
 [taxonomies]
 tag = "tags"
 
@@ -74,6 +77,7 @@ url = "https://www.notion.so/ry0n/2d7eed95099e45a89ba0e25ba22fa65d?v=2cc963f9634
 
 [blackfriday]
 hrefTargetBlank = true
+
 
 [languages]
 # edit this block for your own language
