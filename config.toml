@@ -30,10 +30,10 @@ customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
-prefix = ""
+#prefix = ""
 holder = "ryo_n"
 startYear = "2020"
-suffix = ""
+#suffix = ""
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
