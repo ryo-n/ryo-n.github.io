@@ -9,8 +9,8 @@ tags:
 # はじめに
 
 Codingame初参加。  
-結果はGold Leagueで総合400位くらいだった。  
-TODO:最終結果が出たらスクショ貼る
+結果はGold Leagueで総合386位だった。  
+![結果](/images/2021spring_codingame_result.png)
 
 
 アルゴリズムではPythonを利用しているが、Codingameでは計算量が多そうなイメージだったのでRustで参加。  
