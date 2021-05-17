@@ -64,7 +64,7 @@ TODO:最終結果が出たらスクショ貼る
 
 [CG Local](https://www.codingame.com/forum/t/cg-local/10359)
 というCodingameが利用しているツールを利用し、ローカルのIDEでコーディングをした。  
-盤面を眺めていて挙動がおかしい部分があった場合は、対戦相手と盤面seedをCodingame IDに持ってきてprintデバッグをしていた。  
+盤面を眺めていて挙動がおかしい部分があった場合は、対戦相手と盤面seedをCodingame IDEに持ってきてprintデバッグをしていた。  
 (対戦相手と盤面seedをIDEに反映させる機能がある)
 
 * Rust
