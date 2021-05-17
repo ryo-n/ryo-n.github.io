@@ -1,7 +1,8 @@
 ---
 title: "CODINGAME SPRING CHALLENGE 2021 参加記"
 date: 2021-05-17T17:14:19+09:00
-draft: true
+tags:
+  - codingame
 ---
 
 
