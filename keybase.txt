@@ -1,0 +1,54 @@
+https://keybase.io/ryo_n
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ryo-n.github.io
+  * I am ryo_n (https://keybase.io/ryo_n) on keybase.
+  * I have a public key ASDX_NIGy4YYhgxJlZZzhnl8MUP_6b6o3sPnZADwVU1nygo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cc26047007e6962504aaaa8cab2292ed08a7b2ad7815667843d563e55936dc4e0a",
+      "host": "keybase.io",
+      "kid": "0120d7fcd206cb8618860c4995967386797c3143ffe9bea8dec3e76400f0554d67ca0a",
+      "uid": "1ec9fb565cea2ae08c2c696262af0919",
+      "username": "ryo_n"
+    },
+    "merkle_root": {
+      "ctime": 1669155308,
+      "hash": "9fae71ecc156f0834878201eb05144c7c4d5c00917d965fa98f1469de78eda4aea15f6de87dfdabafa72fec406c485ce53647311655c633854e26e9c93d6ef13",
+      "hash_meta": "6748c3d739a41c01bd7964ab9120da33185ec39fbb2a66340b51f86b90640bcb",
+      "seqno": 23599554
+    },
+    "service": {
+      "entropy": "Uom38l+eKWPJgGy5/gEjGsyf",
+      "hostname": "ryo-n.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1669155358,
+  "expire_in": 504576000,
+  "prev": "83e7c69ce94dcd69d53cc38efe504d60dfea9fca4889eccc961c8bb5eeac364e",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg1/zSBsuGGIYMSZWWc4Z5fDFD/+m+qN7D52QA8FVNZ8oKp3BheWxvYWTESpcCE8Qgg+fGnOlNzWnVPMOO/lBNYN/qn8pIiezMlhyLte6sNk7EIMn67WWVAswsF/R+Umpyg7ZFMbCqQXYonlIUUda9nErHAgHCo3NpZ8RA+le2ZEsxi/k4HRgv5YB53fO1LHdJ7GkUlvMzzJEOj4OBxEWbxV75r4atA4iVHA2xzwPcwbh3QcYbNNIpV5mmCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIUZg+9wHjB+fX+VUuhFjGsRRlY65SI3mHhU1uFiD29/o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ryo_n
+
