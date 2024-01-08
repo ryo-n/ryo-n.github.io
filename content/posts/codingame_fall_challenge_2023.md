@@ -8,7 +8,7 @@ tags:
 # 概要
 
 CodinGameに参加したので環境や考察についてまとめる。
-最終結果はGoldだった。
+最終結果はGold466位で、全体524位でした。
 
 https://www.codingame.com/contests/fall-challenge-2023
 
