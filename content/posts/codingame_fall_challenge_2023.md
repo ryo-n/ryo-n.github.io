@@ -1,5 +1,5 @@
 ---
-title: "CODINGAME SPRING CHALLENGE 2023 参加記"
+title: "CODINGAME FALL CHALLENGE 2023 参加記"
 date: 2024-01-08T13:45:57+09:00
 tags:
   - codingame
