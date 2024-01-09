@@ -1,12 +1,19 @@
 
-h2. hugoインストール
+* hugoインストール
 
 ```
 brew install hugo
 ```
 
-h2. local起動
+* local起動
 
 ```
 hugo server -D
+```
+
+
+* 記事作成
+
+```
+hugo new posts/title.md
 ```
