@@ -3,7 +3,6 @@ title = "ryo_n"
 theme = "etch"
 
 enableInlineShortcodes = true
-Paginate = 5
 preserveTaxonomyNames = true
 enableRobotsTXT = true # generate robots.txt
 pygmentsCodefences = true
@@ -12,6 +11,8 @@ enableEmoji = true
 # Missing translations will default to this content language
 defaultContentLanguage = "en"
 
+[pagination]
+pageSize = 5
 
 [params]
 copyright = "Copyright © 2020 ryo_n"
