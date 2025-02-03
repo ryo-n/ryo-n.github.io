@@ -1,18 +1,347 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mac on ryo_n</title><link>https://ryo-n.github.io/tags/mac/</link><description>Recent content in Mac on ryo_n</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 16 May 2020 23:16:37 +0900</lastBuildDate><atom:link href="https://ryo-n.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml"/><item><title>第一回マスターズ選手権 -決勝- 参加記</title><link>https://ryo-n.github.io/posts/masters2024-final/</link><pubDate>Mon, 22 Apr 2024 17:09:41 +0900</pubDate><guid>https://ryo-n.github.io/posts/masters2024-final/</guid><description>第一回マスターズ選手権 -決勝- に参加しました。 チーム名は、BABA_IS_AC で、メンバーは ryo_n, sasayu, Taiyoの3人です。 結果は34位でした。
-コンテスト開始前 会場 ソラシティカンファレンスセンター ファミマ!!、スターバックスが近くにあります お菓子にもコーヒーにも困らない、良い環境 受付 10時-11時が受付時間 10時過ぎには20人くらいの列が既にできていました kaede2020さんが受付をしてくれました 会場 3部屋に分かれている 大きな1部屋で開催するとネットワークの設定が別途必要になり、コストが高くなる という話を懇親会でchokudaiさんが教えてくれました 1チーム4席分のスペース 8口くらいの電源を2チームで共有 長い充電ケーブルがあると便利そうでした WiFiは会場に用意されているもの。扉にSSIDとパスワードが貼ってありました ノベルティ等 サンドイッチ inゼリー クリアファイル AtCoderステッカー その他 ネットワークトラブルに備え、暗号化zipを事前に配布するという試みがありました トラブルがあった場合はパスワードを会場で公開し、問題はローカルで閲覧する運用です 結果トラブルは発生しなかったので、暗号化zipは使わなかったです コンテスト中 自分はビジュアライザーの実装から開始しました テンプレートには、yunixさんの visualizer-template を利用しました 問題もろくに見ずにローカルテスターのコードを見て、ビジュアライザーを実装していました x, yの入力がいつもと逆という情報もsasayuに教えてもらい助かりました その情報を聞いていたのにも関わらず、終盤までバグが残っていました、、 ビジュアライザーの実装は下記の通り 11:42 ドローンを描画 11:49 壁を描画 11:50 目的地を描画 12:39 ドローンの移動を描画 13:02 到着した目的地の色を変更 14:29 ドローン半径修正、キャンバスのサイズを大きく修正 14:58 壁の座標を修正 12時40分頃にはTaiyoが初提出をしました。提出チームが少なかったのもありますが、その時点で4位でチーム内で盛り上がりました 13時頃から自分も問題を解こうとし、問題を読み始めました。理解が曖昧なところはチーム名に聞いたりし、理解を深めました ドローン位置を仮定した、単純な貪欲を書いてA問題を試しましたが、目的地の横をかすめるような動きで全然得点には繋がらず 風の影響が少ないB問題ならいけるかなと思いましたが、こちらも横をかすめるような動きでで全然得点には繋がらず 今思うと、ベクトルの計算か何かにバグがあった可能性が高いです 自分が得点に繋がらない間、sasayuがB問題を提出し、順調にスコアを伸ばしていました。ただ、周りの伸びも早く、順位は下がり30位くらいでした あとは、Taiyoのローカル環境テスター サポートをしたり、上記のビジュアライザーの壁の修正をしたりして、コンテストを終えました 懇親会 2Fの大きな会場で懇親会が開催 立食形式 軽食 寿司、サンドイッチ、 ローストビーフ等 アルコール ビール、ワイン、ウィスキー等 ソフトドリンク お茶、オレンジジュース等 スタンプラリーゲーム アルコールは、スポンサーブースを3つ回るともらえるという仕組み 全スポンサーを回ると、AtCoderグッズがもらえる 自分は全部まわりました スポンサーブース 事業の説明やノベルティの配布がありました スポンサー一覧 Monxer THIRD いい生活 ALGO ARTIS RECRUIT TOYOTA 何人かとお話したり、chokudaiさんと写真を撮ってもらったりしました 最後表彰式があって解散 二次会 shindannin さん主催の二次会 (反省会)に参加 会場は Ottotto BREWERY 淡路町店 ビール美味しく、二次会に丁度良い軽食がでて大満足でした 他のチームの方々と話したり、ネット越しにしか話したことのない方々とお話できて楽しかったです</description></item><item><title>CODINGAME FALL CHALLENGE 2023 参加記</title><link>https://ryo-n.github.io/posts/codingame_fall_challenge_2023/</link><pubDate>Mon, 08 Jan 2024 13:45:57 +0900</pubDate><guid>https://ryo-n.github.io/posts/codingame_fall_challenge_2023/</guid><description>概要 CodinGameに参加したので環境や考察についてまとめる。 最終結果はGold466位で、全体524位でした。
-https://www.codingame.com/contests/fall-challenge-2023
-環境 VSCode
-Rust
-ローカル環境とWebIDの同期について 以前は下記拡張を使っていたが、現在では配信も停止しているようだった。 今回は使わず、VSCodeのコードをコピペして提出していた https://www.codingame.com/forum/t/codingame-sync-beta/614
-考察 各ドローンを移動させたときの評価値を取り、一番良い評価値の動きを選択する。 全移動を試すと時間切れになってしまうので、下記のように10stepで探索
-for dx in (-600..=600).step_by(10) { for dy in (-600..=600).step_by(10) { } } 評価方法 モンスターに食われないようにする visibleの情報と移動先候補の値を利用し、モンスターに食われるようだったら評価値を大幅にマイナスにした 下記実装を利用 https://github.com/CodinGame/FallChallenge2023-SeabedSecurity/blob/main/src/main/java/com/codingame/game/Game.java#L1067
-魚に近づくようにする ドローン毎にターゲットの魚6匹ずつを決めておく ターゲットの魚は深くて端のものからリストに追加する レーダーの情報を頼りに、ターゲットの魚のリストの1番目の魚に近づくようにする visibleに入っている場合はレーダー情報ではなくvisibleの情報を利用する 味方ドローンが既にScanしている魚はスキップする 潜るのを優先 魚が真下にいる場合はジグザグ動く挙動になってしまったため、下に潜ることを優先 浮上優先 自ドローンの魚を全部捕まえた場合は浮上優先 ライトつけるかどうか ドローンの深さ周辺に未スキャンのターゲットがいたらライトをつける。魚のtypeから深さを判断。 やりたかったこと 味方ドローンが死んだときにサポートする動作 二機のドローンのレーダー情報を利用して、各魚の位置を大まかに推定 敵がスキャンしていない魚の追い出し 敵の位置を見て、全スキャンしていない状態でも浮上し逃げ切る動作</description></item><item><title>CODINGAME SPRING CHALLENGE 2021 参加記</title><link>https://ryo-n.github.io/posts/codingame_spring_challenge_2021/</link><pubDate>Mon, 17 May 2021 17:14:19 +0900</pubDate><guid>https://ryo-n.github.io/posts/codingame_spring_challenge_2021/</guid><description>はじめに Codingame初参加。
-結果はGold Leagueで総合386位だった。
-アルゴリズムではPythonを利用しているが、Codingameでは計算量が多そうなイメージだったのでRustで参加。
-結果的には手を読んだりするロジックは書いていないのでPythonでも十分だった。
-戦術 次の手を読んだりすることなく、与えられたpossible_actionsから強そうな手を選択するという戦術。
-選択する際のロジックは下記に列挙する。
-COMPLETE &amp;gt; GROW size2の木 &amp;gt; GROW size1の木 &amp;gt; GROW size0の種 &amp;gt; SEED の優先度でアクションをする 同じ日にGROW size2の木 -&amp;gt; COMPLETEとするのと、COMPLETE -&amp;gt; GROW size2の木 とするのでは消費sunポイントが異なる 上記順番でアクションをすると無駄な消費sunポイントを抑えることができる COMPLETEアクションをするかどうかは細かなif文で制御 size3の木が５本以上あった場合 敵にスコア差をつけられていた場合 19日移行、かつスコアに大差をつけていない場合 自分の木の影にならないところにSEEDを撒く 自分の木の影になるところに置くと、6日中2日 自分の木同士が影で妨害しあうことになりsunポイントを稼げなくなってしまうため 自分の木から6方向に2距離伸ばしたcellに対してはSEEDを撒かないようにした 自分の木同士一切かぶらないよう、6方向に3距離伸ばしたcellに対してはSEEDを撒かないようにしたがが弱かった 置ける場所が少なくなるため、、? 敵の木も考慮した方が良かったかもしれない 翌日のsunポイントを最大に受け取れるようCOMPLETE対象を選ぶ COMPLETE対象が複数あった場合、翌日受け取れるsunポイントが最大になる木を選ぶ COMPLETE対象の木を消した盤面を作り、翌日の太陽向きから計算をする 自分が取得するsunポイント - 相手が取得するsunポイントが最大になる木を選ぶ 翌日影になっていてsunポイントをを取得できない、相手の木を影で妨害できていない木が選ばれることとなる 翌日のsunポイントを最大に受け取れるようGROW対象を選ぶ GROW対象が複数あった場合、翌日受け取れるsunポイントが最大になる木を選ぶ GROW対象の木のsizeを増やした盤面を作り、翌日の太陽向きから計算をする 自分が取得するsunポイント - 相手が取得するsunポイントが最大になる木を選ぶ sizeが増えることにより、敵の木を影で妨害できたり、敵の木の影の妨害対象外となる木が選ばれることとなる SEEDは最大1個しか置かないようにする この実装によりSEEDは0sunポイント消費になる size3の木が5本を超えないようにする 5本超えると自分の木同士で影を作り合っている可能性が高いので実装 かなり感覚的なもの 敵にスコア差つけられていたらCOMPLETEをする 序盤のnutrientsの恩恵を敵に回収されないよう実装 序盤 (day5まで) はsize2の木を成長させない これは盤面を見ていてなんとなく入れた実装 終盤ロジック 終盤はGROW size0の種などをしてもCOMPLETEすることができないのでGROWの行動自体停止 GROWしたことによりsunポイントを消費sunポイントより多く獲得できることもあるので改善の余地はあった nutrientsが枯渇している状態はCOMPLETEをしない 状況によっては0スコアしか獲得できないのにCOMPLETEして4sunポイント(1スコア相当)を消費していたりしたので実装 開発環境 CG Local というCodingameが利用しているツールを利用し、ローカルのIDEでコーディングをした。</description></item><item><title>AtCoder Python環境</title><link>https://ryo-n.github.io/posts/atcoder_env_202005/</link><pubDate>Sat, 16 May 2020 23:16:37 +0900</pubDate><guid>https://ryo-n.github.io/posts/atcoder_env_202005/</guid><description>2020年5月段階での自分のAtCoder環境をメモがてら書いておく。 Python環境を想定しているが、AtCoder関連のところは他言語利用者も参考になるかもしれない。 Macを利用している。 質問や分かりにくい点あれば追記するので @ryo_n_code へ。
-下記を目指したつもり
-コンテストサイト毎の環境を独立 複数マシン(デスクトップとラップトップ等) での利用も容易にする シンプルな操作 サンプルのコピペ操作の排除 サンプルが通らないコードの提出防止 ソースコード管理 github gitを利用してバージョン管理をしている。 githubはプライベートリポジトリも無料で作成できるので、プライベートリポジトリを作成し、 ソースコードファイル、python環境管理ファイル(下記で記述)などもリポジトリ内に保存している。 ディレクトリ構造は下記のようになっている。 コンテスト毎にディレクトリを作成し、コンテストディレクトリの中に各問題ディレクトリが存在している。 各問題ディレクトリの中にソースコードと、testディレクトリが存在し、testディレクトリ内にサンプルが存在する。
-$ tree . ├── abc001 │ ├── a │ │ ├── main.py │ │ └── test │ │ ├── sample-1.in │ │ ├── sample-1.out │ │ ├── sample-2.in │ │ ├── sample-2.out │ │ ├── sample-3.in │ │ └── sample-3.out │ ├── b │ │ ├── main.py │ │ └── test │ │ ├── sample-1.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mac on ryo_n</title><link>https://ryo-n.github.io/tags/mac/</link><description>Recent content in Mac on ryo_n</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 16 May 2020 23:16:37 +0900</lastBuildDate><atom:link href="https://ryo-n.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml"/><item><title>第一回マスターズ選手権 -決勝- 参加記</title><link>https://ryo-n.github.io/posts/masters2024-final/</link><pubDate>Mon, 22 Apr 2024 17:09:41 +0900</pubDate><guid>https://ryo-n.github.io/posts/masters2024-final/</guid><description>&lt;p>第一回マスターズ選手権 -決勝- に参加しました。
+チーム名は、BABA_IS_AC で、メンバーは ryo_n, sasayu, Taiyoの3人です。
+結果は34位でした。&lt;/p>
+&lt;h1 id="コンテスト開始前">コンテスト開始前&lt;/h1>
+&lt;ul>
+&lt;li>会場
+&lt;ul>
+&lt;li>&lt;a href="https://solacity.jp/">ソラシティカンファレンスセンター&lt;/a>&lt;/li>
+&lt;li>ファミマ!!、スターバックスが近くにあります
+&lt;ul>
+&lt;li>お菓子にもコーヒーにも困らない、良い環境&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>受付
+&lt;ul>
+&lt;li>10時-11時が受付時間&lt;/li>
+&lt;li>10時過ぎには20人くらいの列が既にできていました&lt;/li>
+&lt;li>kaede2020さんが受付をしてくれました&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>会場
+&lt;ul>
+&lt;li>3部屋に分かれている
+&lt;ul>
+&lt;li>大きな1部屋で開催するとネットワークの設定が別途必要になり、コストが高くなる という話を懇親会でchokudaiさんが教えてくれました&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>1チーム4席分のスペース&lt;/li>
+&lt;li>8口くらいの電源を2チームで共有
+&lt;ul>
+&lt;li>長い充電ケーブルがあると便利そうでした&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>WiFiは会場に用意されているもの。扉にSSIDとパスワードが貼ってありました&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ノベルティ等
+&lt;ul>
+&lt;li>サンドイッチ&lt;/li>
+&lt;li>inゼリー&lt;/li>
+&lt;li>クリアファイル&lt;/li>
+&lt;li>AtCoderステッカー&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>その他
+&lt;ul>
+&lt;li>ネットワークトラブルに備え、暗号化zipを事前に配布するという試みがありました&lt;/li>
+&lt;li>トラブルがあった場合はパスワードを会場で公開し、問題はローカルで閲覧する運用です
+&lt;ul>
+&lt;li>結果トラブルは発生しなかったので、暗号化zipは使わなかったです&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="コンテスト中">コンテスト中&lt;/h1>
+&lt;ul>
+&lt;li>自分はビジュアライザーの実装から開始しました&lt;/li>
+&lt;li>テンプレートには、yunixさんの &lt;a href="https://github.com/yunix-kyopro/visualizer-template-public">visualizer-template&lt;/a> を利用しました&lt;/li>
+&lt;li>問題もろくに見ずにローカルテスターのコードを見て、ビジュアライザーを実装していました
+&lt;ul>
+&lt;li>x, yの入力がいつもと逆という情報もsasayuに教えてもらい助かりました&lt;/li>
+&lt;li>その情報を聞いていたのにも関わらず、終盤までバグが残っていました、、&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ビジュアライザーの実装は下記の通り&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>11:42 ドローンを描画
+11:49 壁を描画
+11:50 目的地を描画
+12:39 ドローンの移動を描画
+13:02 到着した目的地の色を変更
+14:29 ドローン半径修正、キャンバスのサイズを大きく修正
+14:58 壁の座標を修正
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>12時40分頃にはTaiyoが初提出をしました。提出チームが少なかったのもありますが、その時点で4位でチーム内で盛り上がりました&lt;/li>
+&lt;li>13時頃から自分も問題を解こうとし、問題を読み始めました。理解が曖昧なところはチーム名に聞いたりし、理解を深めました&lt;/li>
+&lt;li>ドローン位置を仮定した、単純な貪欲を書いてA問題を試しましたが、目的地の横をかすめるような動きで全然得点には繋がらず&lt;/li>
+&lt;li>風の影響が少ないB問題ならいけるかなと思いましたが、こちらも横をかすめるような動きでで全然得点には繋がらず
+&lt;ul>
+&lt;li>今思うと、ベクトルの計算か何かにバグがあった可能性が高いです&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>自分が得点に繋がらない間、sasayuがB問題を提出し、順調にスコアを伸ばしていました。ただ、周りの伸びも早く、順位は下がり30位くらいでした&lt;/li>
+&lt;li>あとは、Taiyoのローカル環境テスター サポートをしたり、上記のビジュアライザーの壁の修正をしたりして、コンテストを終えました&lt;/li>
+&lt;/ul>
+&lt;h1 id="懇親会">懇親会&lt;/h1>
+&lt;ul>
+&lt;li>2Fの大きな会場で懇親会が開催&lt;/li>
+&lt;li>立食形式
+&lt;ul>
+&lt;li>軽食
+&lt;ul>
+&lt;li>寿司、サンドイッチ、 ローストビーフ等&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>アルコール
+&lt;ul>
+&lt;li>ビール、ワイン、ウィスキー等&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ソフトドリンク
+&lt;ul>
+&lt;li>お茶、オレンジジュース等&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>スタンプラリーゲーム
+&lt;ul>
+&lt;li>アルコールは、スポンサーブースを3つ回るともらえるという仕組み&lt;/li>
+&lt;li>全スポンサーを回ると、AtCoderグッズがもらえる&lt;/li>
+&lt;li>自分は全部まわりました&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>スポンサーブース
+&lt;ul>
+&lt;li>事業の説明やノベルティの配布がありました&lt;/li>
+&lt;li>スポンサー一覧
+&lt;ul>
+&lt;li>Monxer&lt;/li>
+&lt;li>THIRD&lt;/li>
+&lt;li>いい生活&lt;/li>
+&lt;li>ALGO ARTIS&lt;/li>
+&lt;li>RECRUIT&lt;/li>
+&lt;li>TOYOTA&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>何人かとお話したり、chokudaiさんと写真を撮ってもらったりしました&lt;/li>
+&lt;li>最後表彰式があって解散&lt;/li>
+&lt;/ul>
+&lt;h1 id="二次会">二次会&lt;/h1>
+&lt;ul>
+&lt;li>shindannin さん主催の二次会 (反省会)に参加&lt;/li>
+&lt;li>会場は Ottotto BREWERY 淡路町店&lt;/li>
+&lt;li>ビール美味しく、二次会に丁度良い軽食がでて大満足でした&lt;/li>
+&lt;li>他のチームの方々と話したり、ネット越しにしか話したことのない方々とお話できて楽しかったです&lt;/li>
+&lt;/ul></description></item><item><title>CODINGAME FALL CHALLENGE 2023 参加記</title><link>https://ryo-n.github.io/posts/codingame_fall_challenge_2023/</link><pubDate>Mon, 08 Jan 2024 13:45:57 +0900</pubDate><guid>https://ryo-n.github.io/posts/codingame_fall_challenge_2023/</guid><description>&lt;h1 id="概要">概要&lt;/h1>
+&lt;p>CodinGameに参加したので環境や考察についてまとめる。
+最終結果はGold466位で、全体524位でした。&lt;/p>
+&lt;p>&lt;a href="https://www.codingame.com/contests/fall-challenge-2023">https://www.codingame.com/contests/fall-challenge-2023&lt;/a>&lt;/p>
+&lt;h1 id="環境">環境&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>VSCode&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Rust&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ローカル環境とWebIDの同期について
+以前は下記拡張を使っていたが、現在では配信も停止しているようだった。
+今回は使わず、VSCodeのコードをコピペして提出していた
+&lt;a href="https://www.codingame.com/forum/t/codingame-sync-beta/614">https://www.codingame.com/forum/t/codingame-sync-beta/614&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="考察">考察&lt;/h1>
+&lt;p>各ドローンを移動させたときの評価値を取り、一番良い評価値の動きを選択する。
+全移動を試すと時間切れになってしまうので、下記のように10stepで探索&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">for&lt;/span> dx &lt;span style="color:#66d9ef">in&lt;/span> (&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">600&lt;/span>&lt;span style="color:#f92672">..=&lt;/span>&lt;span style="color:#ae81ff">600&lt;/span>).step_by(&lt;span style="color:#ae81ff">10&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> dy &lt;span style="color:#66d9ef">in&lt;/span> (&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">600&lt;/span>&lt;span style="color:#f92672">..=&lt;/span>&lt;span style="color:#ae81ff">600&lt;/span>).step_by(&lt;span style="color:#ae81ff">10&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="評価方法">評価方法&lt;/h3>
+&lt;h4 id="モンスターに食われないようにする">モンスターに食われないようにする&lt;/h4>
+&lt;ul>
+&lt;li>visibleの情報と移動先候補の値を利用し、モンスターに食われるようだったら評価値を大幅にマイナスにした&lt;/li>
+&lt;li>下記実装を利用&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://github.com/CodinGame/FallChallenge2023-SeabedSecurity/blob/main/src/main/java/com/codingame/game/Game.java#L1067">https://github.com/CodinGame/FallChallenge2023-SeabedSecurity/blob/main/src/main/java/com/codingame/game/Game.java#L1067&lt;/a>&lt;/p>
+&lt;h4 id="魚に近づくようにする">魚に近づくようにする&lt;/h4>
+&lt;ul>
+&lt;li>ドローン毎にターゲットの魚6匹ずつを決めておく
+&lt;ul>
+&lt;li>ターゲットの魚は深くて端のものからリストに追加する&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>レーダーの情報を頼りに、ターゲットの魚のリストの1番目の魚に近づくようにする&lt;/li>
+&lt;li>visibleに入っている場合はレーダー情報ではなくvisibleの情報を利用する&lt;/li>
+&lt;li>味方ドローンが既にScanしている魚はスキップする&lt;/li>
+&lt;/ul>
+&lt;h4 id="潜るのを優先">潜るのを優先&lt;/h4>
+&lt;ul>
+&lt;li>魚が真下にいる場合はジグザグ動く挙動になってしまったため、下に潜ることを優先&lt;/li>
+&lt;/ul>
+&lt;h4 id="浮上優先">浮上優先&lt;/h4>
+&lt;ul>
+&lt;li>自ドローンの魚を全部捕まえた場合は浮上優先&lt;/li>
+&lt;/ul>
+&lt;h3 id="ライトつけるかどうか">ライトつけるかどうか&lt;/h3>
+&lt;ul>
+&lt;li>ドローンの深さ周辺に未スキャンのターゲットがいたらライトをつける。魚のtypeから深さを判断。&lt;/li>
+&lt;/ul>
+&lt;h1 id="やりたかったこと">やりたかったこと&lt;/h1>
+&lt;ul>
+&lt;li>味方ドローンが死んだときにサポートする動作&lt;/li>
+&lt;li>二機のドローンのレーダー情報を利用して、各魚の位置を大まかに推定&lt;/li>
+&lt;li>敵がスキャンしていない魚の追い出し&lt;/li>
+&lt;li>敵の位置を見て、全スキャンしていない状態でも浮上し逃げ切る動作&lt;/li>
+&lt;/ul></description></item><item><title>CODINGAME SPRING CHALLENGE 2021 参加記</title><link>https://ryo-n.github.io/posts/codingame_spring_challenge_2021/</link><pubDate>Mon, 17 May 2021 17:14:19 +0900</pubDate><guid>https://ryo-n.github.io/posts/codingame_spring_challenge_2021/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>Codingame初参加。&lt;br>
+結果はGold Leagueで総合386位だった。&lt;br>
+&lt;img src="https://ryo-n.github.io/images/2021spring_codingame_result.png" alt="結果">&lt;/p>
+&lt;p>アルゴリズムではPythonを利用しているが、Codingameでは計算量が多そうなイメージだったのでRustで参加。&lt;br>
+結果的には手を読んだりするロジックは書いていないのでPythonでも十分だった。&lt;/p>
+&lt;h1 id="戦術">戦術&lt;/h1>
+&lt;p>次の手を読んだりすることなく、与えられたpossible_actionsから強そうな手を選択するという戦術。&lt;br>
+選択する際のロジックは下記に列挙する。&lt;/p>
+&lt;ul>
+&lt;li>COMPLETE &amp;gt; GROW size2の木 &amp;gt; GROW size1の木 &amp;gt; GROW size0の種 &amp;gt; SEED の優先度でアクションをする
+&lt;ul>
+&lt;li>同じ日にGROW size2の木 -&amp;gt; COMPLETEとするのと、COMPLETE -&amp;gt; GROW size2の木 とするのでは消費sunポイントが異なる&lt;/li>
+&lt;li>上記順番でアクションをすると無駄な消費sunポイントを抑えることができる&lt;/li>
+&lt;li>COMPLETEアクションをするかどうかは細かなif文で制御
+&lt;ul>
+&lt;li>size3の木が５本以上あった場合&lt;/li>
+&lt;li>敵にスコア差をつけられていた場合&lt;/li>
+&lt;li>19日移行、かつスコアに大差をつけていない場合&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>自分の木の影にならないところにSEEDを撒く
+&lt;ul>
+&lt;li>自分の木の影になるところに置くと、6日中2日 自分の木同士が影で妨害しあうことになりsunポイントを稼げなくなってしまうため&lt;/li>
+&lt;li>自分の木から6方向に2距離伸ばしたcellに対してはSEEDを撒かないようにした
+&lt;ul>
+&lt;li>自分の木同士一切かぶらないよう、6方向に3距離伸ばしたcellに対してはSEEDを撒かないようにしたがが弱かった
+&lt;ul>
+&lt;li>置ける場所が少なくなるため、、?&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>敵の木も考慮した方が良かったかもしれない&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>翌日のsunポイントを最大に受け取れるようCOMPLETE対象を選ぶ
+&lt;ul>
+&lt;li>COMPLETE対象が複数あった場合、翌日受け取れるsunポイントが最大になる木を選ぶ&lt;/li>
+&lt;li>COMPLETE対象の木を消した盤面を作り、翌日の太陽向きから計算をする
+&lt;ul>
+&lt;li>自分が取得するsunポイント - 相手が取得するsunポイントが最大になる木を選ぶ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>翌日影になっていてsunポイントをを取得できない、相手の木を影で妨害できていない木が選ばれることとなる&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>翌日のsunポイントを最大に受け取れるようGROW対象を選ぶ
+&lt;ul>
+&lt;li>GROW対象が複数あった場合、翌日受け取れるsunポイントが最大になる木を選ぶ&lt;/li>
+&lt;li>GROW対象の木のsizeを増やした盤面を作り、翌日の太陽向きから計算をする
+&lt;ul>
+&lt;li>自分が取得するsunポイント - 相手が取得するsunポイントが最大になる木を選ぶ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>sizeが増えることにより、敵の木を影で妨害できたり、敵の木の影の妨害対象外となる木が選ばれることとなる&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>SEEDは最大1個しか置かないようにする
+&lt;ul>
+&lt;li>この実装によりSEEDは0sunポイント消費になる&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>size3の木が5本を超えないようにする
+&lt;ul>
+&lt;li>5本超えると自分の木同士で影を作り合っている可能性が高いので実装&lt;/li>
+&lt;li>かなり感覚的なもの&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>敵にスコア差つけられていたらCOMPLETEをする
+&lt;ul>
+&lt;li>序盤のnutrientsの恩恵を敵に回収されないよう実装&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>序盤 (day5まで) はsize2の木を成長させない
+&lt;ul>
+&lt;li>これは盤面を見ていてなんとなく入れた実装&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>終盤ロジック
+&lt;ul>
+&lt;li>終盤はGROW size0の種などをしてもCOMPLETEすることができないのでGROWの行動自体停止
+&lt;ul>
+&lt;li>GROWしたことによりsunポイントを消費sunポイントより多く獲得できることもあるので改善の余地はあった&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>nutrientsが枯渇している状態はCOMPLETEをしない
+&lt;ul>
+&lt;li>状況によっては0スコアしか獲得できないのにCOMPLETEして4sunポイント(1スコア相当)を消費していたりしたので実装&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="開発環境">開発環境&lt;/h1>
+&lt;p>&lt;a href="https://www.codingame.com/forum/t/cg-local/10359">CG Local&lt;/a>
+というCodingameが利用しているツールを利用し、ローカルのIDEでコーディングをした。&lt;br>
+盤面を眺めていて挙動がおかしい部分があった場合は、対戦相手と盤面seedをCodingame IDEに持ってきてprintデバッグをしていた。&lt;br>
+(対戦相手と盤面seedをIDEに反映させる機能がある)&lt;/p></description></item><item><title>AtCoder Python環境</title><link>https://ryo-n.github.io/posts/atcoder_env_202005/</link><pubDate>Sat, 16 May 2020 23:16:37 +0900</pubDate><guid>https://ryo-n.github.io/posts/atcoder_env_202005/</guid><description>&lt;p>2020年5月段階での自分のAtCoder環境をメモがてら書いておく。
+Python環境を想定しているが、AtCoder関連のところは他言語利用者も参考になるかもしれない。
+Macを利用している。
+質問や分かりにくい点あれば追記するので &lt;a href="https://twitter.com/ryo_n_code">@ryo_n_code&lt;/a> へ。&lt;/p>
+&lt;p>下記を目指したつもり&lt;/p>
+&lt;ul>
+&lt;li>コンテストサイト毎の環境を独立&lt;/li>
+&lt;li>複数マシン(デスクトップとラップトップ等) での利用も容易にする&lt;/li>
+&lt;li>シンプルな操作&lt;/li>
+&lt;li>サンプルのコピペ操作の排除&lt;/li>
+&lt;li>サンプルが通らないコードの提出防止&lt;/li>
+&lt;/ul>
+&lt;h1 id="ソースコード管理">ソースコード管理&lt;/h1>
+&lt;h2 id="github">github&lt;/h2>
+&lt;p>gitを利用してバージョン管理をしている。
+githubはプライベートリポジトリも無料で作成できるので、プライベートリポジトリを作成し、
+ソースコードファイル、python環境管理ファイル(下記で記述)などもリポジトリ内に保存している。
+ディレクトリ構造は下記のようになっている。
+コンテスト毎にディレクトリを作成し、コンテストディレクトリの中に各問題ディレクトリが存在している。
+各問題ディレクトリの中にソースコードと、testディレクトリが存在し、testディレクトリ内にサンプルが存在する。&lt;/p>
+&lt;pre tabindex="0">&lt;code>$ tree
+.
+├── abc001
+│   ├── a
+│   │   ├── main.py
+│   │   └── test
+│   │   ├── sample-1.in
+│   │   ├── sample-1.out
+│   │   ├── sample-2.in
+│   │   ├── sample-2.out
+│   │   ├── sample-3.in
+│   │   └── sample-3.out
+│   ├── b
+│   │   ├── main.py
+│   │   └── test
+│   │   ├── sample-1.in
+│   │   ├── sample-1.out
+│   │   ├── sample-2.in
+│   │   ├── sample-2.out
+│   │   ├── sample-3.in
+│   │   └── sample-3.out
+&lt;/code>&lt;/pre>&lt;h1 id="python環境">Python環境&lt;/h1>
+&lt;h2 id="pyenv">pyenv&lt;/h2>
+&lt;p>&lt;a href="https://github.com/pyenv/pyenv">https://github.com/pyenv/pyenv&lt;/a>&lt;/p></description></item></channel></rss>
