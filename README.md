@@ -1,8 +1,10 @@
 
 * hugoインストール
 
+nix 設定ファイルに記述されていれば、下記コマンドでインストールされる。
+
 ```
-brew install hugo
+darwin-rebuild switch --flake ~/.config/nix-darwin/#${hostname}
 ```
 
 * local起動
