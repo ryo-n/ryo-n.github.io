@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=https://ryo-n.github.io/favicon.ico><link rel=stylesheet href=/css/style.min.css><title>開発環境 2025</title></head><body><header id=banner><h2><a href=https://ryo-n.github.io/>ryo_n</a></h2><nav><ul><li><a href="https://www.notion.so/ry0n/2d7eed95099e45a89ba0e25ba22fa65d?v=2cc963f963444f148962fc0ebd8f1e97" title>問題解説</a></li></ul></nav></header><main id=content><article><header id=post-header><h1>開発環境 2025</h1><div><time>May 24, 2025</time></div></header><h1 id=os>OS</h1><p>macOS</p><h1 id=エディタ>エディタ</h1><p>Neovim, VSCode</p><ul><li>テキストファイルを編集するときにはNeovimを使います。このファイルもNeovimで編集しています。</li><li>コーディングをするときにはVSCodeを使います。簡単なスクリプト程度ならNeovimを使います</li><li>Neovimはプラグイン管理に疲れたので、Lazyvimを利用</li></ul><h1 id=ターミナルエミュレータ>ターミナルエミュレータ</h1><p>Ghostty</p><ul><li>アイコン可愛く、設定シンプルなので良いです。自分の設定はこれくらいです。</li></ul><pre tabindex=0><code>font-family = &#34;Monaco&#34;
+font-family-bold = &#34;Monaco&#34;
+font-family-italic = &#34;Monaco&#34;
+font-family-bold-italic = &#34;Monaco&#34;
+font-family = &#34;HackGen Console NF&#34;
+font-size = 12
+
+background-opacity = 0.85
+
+macos-titlebar-style = tabs
+macos-option-as-alt = true
+
+keybind = ctrl+i=text:\x09
+keybind = ctrl+m=text:\x0d
+keybind = ctrl+[=text:\x1b
+
+mouse-hide-while-typing = true
+</code></pre><h1 id=ターミナルマルチプレクサ>ターミナルマルチプレクサ</h1><p>tmux</p><ul><li>以前はscreen使っていて、今はtmux。zellijも触ったが、乗り換えませんでした。</li><li>エスケープキーはCtrl + j にしています。</li><li>ウィンドウ切り替えに Shift + 左右矢印キーを使っています。</li></ul><h1 id=シェル>シェル</h1><p>zsh</p><ul><li>zshrcをいつか整理したいです。</li></ul><h1 id=フォント>フォント</h1><p>Monaco + Hack Nerd Font Mono</p><ul><li>英数字はMonacoで日本語などはHack Nerd Fontにしています。</li></ul><h1 id=ブラウザ>ブラウザ</h1><p>Edge</p><ul><li>Google Chrome でも良いのですが、なんとなくEdgeを使っています。</li></ul><h1 id=開発環境のセットアップ>開発環境のセットアップ</h1><p>nix, homebrew</p><ul><li>nix でCUIを管理しています。</li><li>homebrew でGUIを管理しています。</li><li>mas を使っていてApp Storeのアプリも管理しています。</li><li>homemanager, nix-darwinを使っていて、そこからhomebrewなどを呼び出しています。</li></ul><h1 id=dotfiles>dotfiles</h1><p>chezmoi</p><ul><li>ドットファイル管理はnixは利用せず、chezmoiを利用しています。</li></ul><h1 id=キーボード>キーボード</h1><p><a href=https://system76.com/keyboards/>https://system76.com/keyboards/</a>
+Launch keyboard + Kailh Deep Sea Silent Pro Box Islet</p><ul><li>Apple純正のMagicKeyboardを使っていましたが、最近Launch keyboardにしました。</li><li>スペースキーの左に4キーあるのが好みです。</li><li>スペースキーの左右を英数、かなに割り当てて、英数の左のキーをCmd、Alt としていてずらしています。</li><li>また、かなの右のキーはHyperKeyに割り当てていて、グローバルショートカットキー呼び出しに利用しています。</li></ul><h1 id=その他コマンドラインツール>その他コマンドラインツール</h1><h2 id=git-関連>git 関連</h2><p>tig, lazygit</p><ul><li>基本tigを利用しています。</li><li>neovimからの呼び出しはlazygitをにしています。</li></ul><h2 id=コマンド履歴管理>コマンド履歴管理</h2><p>atuin</p><ul><li>サーバーにコマンド履歴を保存していて、どの端末からもコマンド履歴を参照できるようになっています。</li><li>自前でサーバーを立てることもできますが、atuinのサーバーを利用しています。</li></ul><h2 id=ディレクトリ移動>ディレクトリ移動</h2><p>zoxide</p><ul><li>ディレクトリ移動しやすくなります。</li><li>zi 使ってインタラクティブサーチしつつ、移動先を選ぶことが多いです。</li></ul><h2 id=リポジトリ移動>リポジトリ移動</h2><p>ghq</p><ul><li>Ctrl + g でリポジトリ一覧をfzfでインタラクティブサーチし、移動できるようにしています。</li></ul></article></main><footer id=footer>Copyright © 2020 ryo_n</footer></body></html>

@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Atcoder on ryo_n</title><link>https://ryo-n.github.io/tags/atcoder/</link><description>Recent content in Atcoder on ryo_n</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 16 May 2020 23:16:37 +0900</lastBuildDate><atom:link href="https://ryo-n.github.io/tags/atcoder/index.xml" rel="self" type="application/rss+xml"/><item><title>第一回マスターズ選手権 -決勝- 参加記</title><link>https://ryo-n.github.io/posts/masters2024-final/</link><pubDate>Mon, 22 Apr 2024 17:09:41 +0900</pubDate><guid>https://ryo-n.github.io/posts/masters2024-final/</guid><description>&lt;p>第一回マスターズ選手権 -決勝- に参加しました。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Atcoder on ryo_n</title><link>https://ryo-n.github.io/tags/atcoder/</link><description>Recent content in Atcoder on ryo_n</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 16 May 2020 23:16:37 +0900</lastBuildDate><atom:link href="https://ryo-n.github.io/tags/atcoder/index.xml" rel="self" type="application/rss+xml"/><item><title>開発環境 2025</title><link>https://ryo-n.github.io/posts/2025_dev_env/</link><pubDate>Sat, 24 May 2025 09:14:03 +0900</pubDate><guid>https://ryo-n.github.io/posts/2025_dev_env/</guid><description>&lt;h1 id="os">OS&lt;/h1>
+&lt;p>macOS&lt;/p>
+&lt;h1 id="エディタ">エディタ&lt;/h1>
+&lt;p>Neovim, VSCode&lt;/p>
+&lt;ul>
+&lt;li>テキストファイルを編集するときにはNeovimを使います。このファイルもNeovimで編集しています。&lt;/li>
+&lt;li>コーディングをするときにはVSCodeを使います。簡単なスクリプト程度ならNeovimを使います&lt;/li>
+&lt;li>Neovimはプラグイン管理に疲れたので、Lazyvimを利用&lt;/li>
+&lt;/ul>
+&lt;h1 id="ターミナルエミュレータ">ターミナルエミュレータ&lt;/h1>
+&lt;p>Ghostty&lt;/p>
+&lt;ul>
+&lt;li>アイコン可愛く、設定シンプルなので良いです。自分の設定はこれくらいです。&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>font-family = &amp;#34;Monaco&amp;#34;
+font-family-bold = &amp;#34;Monaco&amp;#34;
+font-family-italic = &amp;#34;Monaco&amp;#34;
+font-family-bold-italic = &amp;#34;Monaco&amp;#34;
+font-family = &amp;#34;HackGen Console NF&amp;#34;
+font-size = 12
+background-opacity = 0.85
+macos-titlebar-style = tabs
+macos-option-as-alt = true
+keybind = ctrl+i=text:\x09
+keybind = ctrl+m=text:\x0d
+keybind = ctrl+[=text:\x1b
+mouse-hide-while-typing = true
+&lt;/code>&lt;/pre>&lt;h1 id="ターミナルマルチプレクサ">ターミナルマルチプレクサ&lt;/h1>
+&lt;p>tmux&lt;/p>
+&lt;ul>
+&lt;li>以前はscreen使っていて、今はtmux。zellijも触ったが、乗り換えませんでした。&lt;/li>
+&lt;li>エスケープキーはCtrl + j にしています。&lt;/li>
+&lt;li>ウィンドウ切り替えに Shift + 左右矢印キーを使っています。&lt;/li>
+&lt;/ul>
+&lt;h1 id="シェル">シェル&lt;/h1>
+&lt;p>zsh&lt;/p>
+&lt;ul>
+&lt;li>zshrcをいつか整理したいです。&lt;/li>
+&lt;/ul>
+&lt;h1 id="フォント">フォント&lt;/h1>
+&lt;p>Monaco + Hack Nerd Font Mono&lt;/p></description></item><item><title>第一回マスターズ選手権 -決勝- 参加記</title><link>https://ryo-n.github.io/posts/masters2024-final/</link><pubDate>Mon, 22 Apr 2024 17:09:41 +0900</pubDate><guid>https://ryo-n.github.io/posts/masters2024-final/</guid><description>&lt;p>第一回マスターズ選手権 -決勝- に参加しました。
 チーム名は、BABA_IS_AC で、メンバーは ryo_n, sasayu, Taiyoの3人です。
 結果は34位でした。&lt;/p>
 &lt;h1 id="コンテスト開始前">コンテスト開始前&lt;/h1>
